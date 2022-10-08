@@ -787,6 +787,280 @@ else {
 //      document.getElementById("point").value=point;
 //     }
 
+// //     physics-1
+
+
+// var grade ="";
+// var point ="";
+
+// function bangla2(_totalMark){
+//     if(_totalMark >=80 & _totalMark <=100){
+//          var grade ="A+";
+//          var point ="5.00";
+//     }
+//     else if(_totalMark >=70 & _totalMark<=79){
+//          var grade="A";
+//          var point="4.00";
+//     }
+//     else if(_totalMark >=60 & _totalMark<=69){
+//      var grade="A-";
+//      var point="3.50";
+// }
+// else if(_totalMark >=50 & _totalMark<=59){
+//      var grade="B+";
+//      var point="3.50";
+// }
+// else if(_totalMark >=40 & _totalMark<=49){
+//      var grade="B-";
+//      var point="2.50";
+// }
+// else if(_totalMark >=33 & _totalMark<=39){
+//      var grade="D";
+//      var point="2.00";
+// }
+// else if(_totalMark >=0 & _totalMark<=32){
+//      var grade="F";
+//      var point="0.00";
+// }
+// else  {
+//              alert("Wrong Mark");      
+//              total="";
+//              grade ="";
+//              point ="";
+//              point = "";
+//         }
+    
+// }
+//     function bangla2(){
+//      var _tMark = document.getElementById("tMark").value;
+//      var _tMark = document.getElementById("pMark").value;
+//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+
+//      result(_totalMark);
+//      document.getElementById("totalMark").value=_totalMark;
+//      document.getElementById("grade").value=grade;
+//      document.getElementById("point").value=point;
+//     }
+
+// //     physics-2
+
+
+// var grade ="";
+// var point ="";
+
+// function bangla2(_totalMark){
+//     if(_totalMark >=80 & _totalMark <=100){
+//          var grade ="A+";
+//          var point ="5.00";
+//     }
+//     else if(_totalMark >=70 & _totalMark<=79){
+//          var grade="A";
+//          var point="4.00";
+//     }
+//     else if(_totalMark >=60 & _totalMark<=69){
+//      var grade="A-";
+//      var point="3.50";
+// }
+// else if(_totalMark >=50 & _totalMark<=59){
+//      var grade="B+";
+//      var point="3.50";
+// }
+// else if(_totalMark >=40 & _totalMark<=49){
+//      var grade="B-";
+//      var point="2.50";
+// }
+// else if(_totalMark >=33 & _totalMark<=39){
+//      var grade="D";
+//      var point="2.00";
+// }
+// else if(_totalMark >=0 & _totalMark<=32){
+//      var grade="F";
+//      var point="0.00";
+// }
+// else  {
+//              alert("Wrong Mark");      
+//              total="";
+//              grade ="";
+//              point ="";
+//              point = "";
+//         }
+    
+// }
+//     function bangla2(){
+//      var _tMark = document.getElementById("tMark").value;
+//      var _tMark = document.getElementById("pMark").value;
+//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+
+//      result(_totalMark);
+//      document.getElementById("totalMark").value=_totalMark;
+//      document.getElementById("grade").value=grade;
+//      document.getElementById("point").value=point;
+//     }
+
+// //     chemistry-1
+
+
+// var grade ="";
+// var point ="";
+
+// function bangla2(_totalMark){
+//     if(_totalMark >=80 & _totalMark <=100){
+//          var grade ="A+";
+//          var point ="5.00";
+//     }
+//     else if(_totalMark >=70 & _totalMark<=79){
+//          var grade="A";
+//          var point="4.00";
+//     }
+//     else if(_totalMark >=60 & _totalMark<=69){
+//      var grade="A-";
+//      var point="3.50";
+// }
+// else if(_totalMark >=50 & _totalMark<=59){
+//      var grade="B+";
+//      var point="3.50";
+// }
+// else if(_totalMark >=40 & _totalMark<=49){
+//      var grade="B-";
+//      var point="2.50";
+// }
+// else if(_totalMark >=33 & _totalMark<=39){
+//      var grade="D";
+//      var point="2.00";
+// }
+// else if(_totalMark >=0 & _totalMark<=32){
+//      var grade="F";
+//      var point="0.00";
+// }
+// else  {
+//              alert("Wrong Mark");      
+//              total="";
+//              grade ="";
+//              point ="";
+//              point = "";
+//         }
+    
+// }
+//     function bangla2(){
+//      var _tMark = document.getElementById("tMark").value;
+//      var _tMark = document.getElementById("pMark").value;
+//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+
+//      result(_totalMark);
+//      document.getElementById("totalMark").value=_totalMark;
+//      document.getElementById("grade").value=grade;
+//      document.getElementById("point").value=point;
+//     }
+
+// //     Chemistry-2
+
+
+// var grade ="";
+// var point ="";
+
+// function bangla2(_totalMark){
+//     if(_totalMark >=80 & _totalMark <=100){
+//          var grade ="A+";
+//          var point ="5.00";
+//     }
+//     else if(_totalMark >=70 & _totalMark<=79){
+//          var grade="A";
+//          var point="4.00";
+//     }
+//     else if(_totalMark >=60 & _totalMark<=69){
+//      var grade="A-";
+//      var point="3.50";
+// }
+// else if(_totalMark >=50 & _totalMark<=59){
+//      var grade="B+";
+//      var point="3.50";
+// }
+// else if(_totalMark >=40 & _totalMark<=49){
+//      var grade="B-";
+//      var point="2.50";
+// }
+// else if(_totalMark >=33 & _totalMark<=39){
+//      var grade="D";
+//      var point="2.00";
+// }
+// else if(_totalMark >=0 & _totalMark<=32){
+//      var grade="F";
+//      var point="0.00";
+// }
+// else  {
+//              alert("Wrong Mark");      
+//              total="";
+//              grade ="";
+//              point ="";
+//              point = "";
+//         }
+    
+// }
+//     function bangla2(){
+//      var _tMark = document.getElementById("tMark").value;
+//      var _tMark = document.getElementById("pMark").value;
+//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+
+//      result(_totalMark);
+//      document.getElementById("totalMark").value=_totalMark;
+//      document.getElementById("grade").value=grade;
+//      document.getElementById("point").value=point;
+//     }
+
+// //     ICT
+
+
+// var grade ="";
+// var point ="";
+
+// function bangla2(_totalMark){
+//     if(_totalMark >=80 & _totalMark <=100){
+//          var grade ="A+";
+//          var point ="5.00";
+//     }
+//     else if(_totalMark >=70 & _totalMark<=79){
+//          var grade="A";
+//          var point="4.00";
+//     }
+//     else if(_totalMark >=60 & _totalMark<=69){
+//      var grade="A-";
+//      var point="3.50";
+// }
+// else if(_totalMark >=50 & _totalMark<=59){
+//      var grade="B+";
+//      var point="3.50";
+// }
+// else if(_totalMark >=40 & _totalMark<=49){
+//      var grade="B-";
+//      var point="2.50";
+// }
+// else if(_totalMark >=33 & _totalMark<=39){
+//      var grade="D";
+//      var point="2.00";
+// }
+// else if(_totalMark >=0 & _totalMark<=32){
+//      var grade="F";
+//      var point="0.00";
+// }
+// else  {
+//              alert("Wrong Mark");      
+//              total="";
+//              grade ="";
+//              point ="";
+//              point = "";
+//         }
+    
+// }
+//     function bangla2(){
+//      var _tMark = document.getElementById("tMark").value;
+//      var _tMark = document.getElementById("pMark").value;
+//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+
+//      result(_totalMark);
+//      document.getElementById("totalMark").value=_totalMark;
+//      document.getElementById("grade").value=grade;
+//      document.getElementById("point").value=point;
+//     }
 
 
 
