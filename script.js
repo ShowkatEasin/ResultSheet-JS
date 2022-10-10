@@ -1,4 +1,4 @@
-function result(){
+/* function result(){
          var tMark=document.getElementById("tMark").value;
          var pMark=document.getElementById("pMark").value;
          var total = (parseInt(tMark) + parseInt(pMark));
@@ -555,7 +555,7 @@ else {
    document.getElementById("point10").value=point;
 } 
 
-
+*/
 
 
 // -------------- |-------
@@ -563,504 +563,104 @@ else {
 //--------------|------
 
 
+var grade="";
+var point="";
 
+function Mark(totalMark) {
+    if(totalMark >=80 & totalMark <=100){
+        grade="A+";
+        point="5.00";
+    }
+    else if(totalMark >=70 & totalMark <=79){
+        grade="A";
+        point="4.00";
+    }
+    else if(totalMark >=60 & totalMark <=69){
+        grade="A-";
+        point="3.50";
+    }
+    else if(totalMark >=50 & totalMark <=59){
+        grade="B";
+        point="3.00";
+    }
+    else if(totalMark >=40 & totalMark <=49){
+        grade="C";
+        point="2.00";
+    }
+    else if(totalMark >=33 & totalMark <=39){
+        grade="D";
+        point="1.00";
+    }
+    else if(totalMark >=0 & totalMark <=32){
+        grade="F";
+        point="0.00";
+    }
+    else{
+        alert("Wrong Type");
+    }
 
-// Bangla -1
+}
 
+function bangla1() {
+    var _tMark = document.getElementById("tMark").value;
+    var _pMark = document.getElementById("pMark").value;
+    var _totalMark = (parseInt(_tMark) + parseInt(_pMark));
+    Mark(_totalMark);
+    document.getElementById("totalMark").value=_totalMark;
+    document.getElementById("grade").value = grade;
+    document.getElementById("point").value = point;
+}
 
+// Bangla-II
 
-// var grade ="";
-// var point ="";
+var grade="";
+var point="";
 
-// function result(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla1(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
+function Mark(totalMark) {
+    if(totalMark >=80 & totalMark <=100){
+        grade="A+";
+        point="5.00";
+    }
+    else if(totalMark >=70 & totalMark <=79){
+        grade="A";
+        point="4.00";
+    }
+    else if(totalMark >=60 & totalMark <=69){
+        grade="A-";
+        point="3.50";
+    }
+    else if(totalMark >=50 & totalMark <=59){
+        grade="B";
+        point="3.00";
+    }
+    else if(totalMark >=40 & totalMark <=49){
+        grade="C";
+        point="2.00";
+    }
+    else if(totalMark >=33 & totalMark <=39){
+        grade="D";
+        point="1.00";
+    }
+    else if(totalMark >=0 & totalMark <=32){
+        grade="F";
+        point="0.00";
+    }
+    else{
+        alert("Wrong Type");
+    }
 
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
+}
 
-
-// //     Bangla-2
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     English -2-
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     Bangla-2
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     physics-1
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     physics-2
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     chemistry-1
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     Chemistry-2
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
-
-// //     ICT
-
-
-// var grade ="";
-// var point ="";
-
-// function bangla2(_totalMark){
-//     if(_totalMark >=80 & _totalMark <=100){
-//          var grade ="A+";
-//          var point ="5.00";
-//     }
-//     else if(_totalMark >=70 & _totalMark<=79){
-//          var grade="A";
-//          var point="4.00";
-//     }
-//     else if(_totalMark >=60 & _totalMark<=69){
-//      var grade="A-";
-//      var point="3.50";
-// }
-// else if(_totalMark >=50 & _totalMark<=59){
-//      var grade="B+";
-//      var point="3.50";
-// }
-// else if(_totalMark >=40 & _totalMark<=49){
-//      var grade="B-";
-//      var point="2.50";
-// }
-// else if(_totalMark >=33 & _totalMark<=39){
-//      var grade="D";
-//      var point="2.00";
-// }
-// else if(_totalMark >=0 & _totalMark<=32){
-//      var grade="F";
-//      var point="0.00";
-// }
-// else  {
-//              alert("Wrong Mark");      
-//              total="";
-//              grade ="";
-//              point ="";
-//              point = "";
-//         }
-    
-// }
-//     function bangla2(){
-//      var _tMark = document.getElementById("tMark").value;
-//      var _tMark = document.getElementById("pMark").value;
-//      var _totalMark = (parseInt(_tMark) + parseInt(_tMark));
-
-//      result(_totalMark);
-//      document.getElementById("totalMark").value=_totalMark;
-//      document.getElementById("grade").value=grade;
-//      document.getElementById("point").value=point;
-//     }
+function bangla2() {
+    var _tMark1 = document.getElementById("tMark1").value;
+    var _pMark1 = document.getElementById("pMark1").value;
+    var _totalMark1 = (parseInt(_tMark1) + parseInt(_pMark1));
+    Mark(_totalMark1);
+    document.getElementById("totalMark1").value=_totalMark1;
+    document.getElementById("grade1").value = grade;
+    document.getElementById("point1").value = point;
+}
 
 
 
+ 
